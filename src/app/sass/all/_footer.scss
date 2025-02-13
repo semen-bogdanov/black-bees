@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  &__main {
+    @apply bg-blackBanner w-[100%] h-[250px] mt-[35px];
+  }
+
+  &__conect {
+    @apply text-white text-[20px] ml-[15px];
+  }
+
+  &__block {
+    @apply flex mt-[50px] justify-between;
+  }
+
+  &__navigation {
+    @apply flex h-[80px] justify-center items-center pr-[20px];
+  }
+
+  &__link {
+    @apply ml-[70px] text-white text-[21px];
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .footer {
+    &__nav {
+      @apply hidden;
+    }
+
+    &__contact {
+      @apply text-center;
+    }
+
+    &__conect {
+      @apply ml-[0px];
+    }
+
+    &__block {
+      @apply justify-center;
+    }
+  }
+}

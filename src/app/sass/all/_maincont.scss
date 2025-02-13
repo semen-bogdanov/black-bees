@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.maincont {
+	&__inner {
+		@apply flex justify-between;
+	}
+
+	&__filter3 {
+		@apply hidden;
+	}
+}
+
+@media screen and (max-width: 1125px) {
+	.maincont {
+		&__filter3 {
+			@apply block absolute top-48 left-0 z-30 bg-blackBanner;
+		}
+	}
+}

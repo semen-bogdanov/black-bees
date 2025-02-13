@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+	&__inner {
+		border-bottom: 0.1px solid white;
+		@apply h-[109px] rounded w-[100%]  flex justify-center;
+	}
+
+	&__content {
+		@apply flex justify-center w-[100%];
+	}
+
+	&__block {
+		@apply flex h-[25px] mt-[45px] w-[450px];
+	}
+
+	&__label {
+		@apply text-white text-[40px] opacity-100 h-[60px] w-[200px] cursor-pointer text-center;
+	}
+
+	&__filter {
+		@apply hidden;
+		object-fit: contain;
+	}
+
+	&__bars {
+		display: none;
+	}
+
+	&__menu {
+		display: none;
+	}
+
+	&__input {
+		@apply h-[25px]  bg-transparent pl-[20px] text-white;
+	}
+
+	&__searchicon {
+		@apply ml-[40px] w-[25px] h-[25px];
+	}
+
+	&__round {
+		@apply rounded-[40px] w-[50px] h-[50px] cursor-pointer  flex justify-center items-center mr-[100px] mt-[30px] ml-[100px];
+		border: 2px solid rgb(68, 68, 68);
+	}
+
+	&__vk {
+		@apply mt-[3px];
+	}
+
+	&__round:hover {
+		border: 2px solid white;
+		transition: all 1s ease-out;
+	}
+
+	&__social {
+		@apply flex w-[450px];
+	}
+
+	&__cont {
+		@apply flex justify-center  mt-[25px];
+	}
+
+	&__nav {
+		@apply h-[80px];
+	}
+
+	&__navigation {
+		@apply flex h-[80px] justify-center items-center;
+	}
+
+	&__navigation2 {
+		@apply flex h-[80px] justify-center items-center;
+	}
+
+	&__link {
+		@apply ml-[70px] text-white text-[21px];
+	}
+
+	&__link:first-child {
+		@apply ml-[0px];
+	}
+
+	&__link:hover {
+		@apply opacity-30;
+	}
+}
+
+@media screen and (max-width: 1125px) {
+	.header {
+		&__filter {
+			@apply block w-[50px] h-[50px] ml-[50px] cursor-pointer fixed z-40 mt-[160px];
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.header {
+		&__label {
+			@apply h-[auto] w-[auto] text-[30px];
+		}
+
+		&__round {
+			@apply hidden;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.header {
+		&__label {
+			@apply hidden;
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.header {
+		&__label {
+			@apply hidden;
+		}
+		&__navigation {
+			@apply hidden;
+		}
+		&__input {
+			@apply hidden;
+		}
+		&__searchicon {
+			@apply hidden;
+		}
+		&__bars {
+			@apply block ml-[50px] cursor-pointer w-[45px] h-[30px] cursor-pointer fixed z-40 p-[5px];
+		}
+
+		&__menu {
+			@apply block bg-white w-[140px] h-[150px]   m-[80px]   opacity-90 fixed z-40 ml-[50px];
+		}
+
+		&__menu2 {
+			@apply block ml-[20px] mt-[20px];
+		}
+
+		&__link2 {
+			@apply block text-[18px] mt-[15px];
+		}
+
+		&__filter {
+			@apply mt-[75px];
+		}
+	}
+}

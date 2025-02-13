@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20201107 at Thu Nov  1 12:26:15 2018
+ By 
+Font Awesome
+</metadata>
+<defs>
+<font id="FontAwesome5BrandsRegular" horiz-adv-x="187" >
+  <font-face 
+    font-family="Font Awesome 5 Brands"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="-0.166667 -64.2593 576 448.143"
+    underline-thickness="0"
+    underline-position="5"
+    unicode-range="U+F1BD-F3A9"
+  />
+<missing-glyph 
+d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
+    <glyph glyph-name=".notdef" 
+d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="170" 
+ />
+    <glyph glyph-name="deviantart" unicode="&#xf1bd;" horiz-adv-x="320" 
+d="M320 355l-98 -179l7 -10h91v-127h-161l-13 -10l-44 -84l-9 -9h-93v93l93 180l-7 9h-86v128h156l14 9l43 84l9 9h98v-93z" />
+    <glyph glyph-name="cc-paypal" unicode="&#xf1f4;" horiz-adv-x="576" 
+d="M186 190q0 -9 -6 -15.5t-14.5 -6.5t-13 4t-4.5 12t6.5 14.5t14.5 6.5t12.5 -4t4.5 -11zM81 238h-5q-3 0 -3 -2l-5 -27h9q9 0 14.5 3t7 12t-3 11.5t-14.5 2.5zM365 238h-5q-3 0 -3 -2l-4 -27h8q10 0 16 4t6 14q0 7 -6 10q-4 1 -12 1zM576 368v-352q0 -20 -14 -34t-34 -14
+h-480q-20 0 -34 14t-14 34v352q0 20 14 34t34 14h480q20 0 34 -14t14 -34zM128 233q0 14 -9.5 21t-24.5 7h-40q-5 0 -6 -5l-16 -102q0 -2 1 -3t2 -1h19q2 0 3.5 1.5t2.5 4.5l4 26q1 6 15 5h3q22 0 34 12t12 34zM213 224h-19q-4 0 -5 -8v0q-7 10 -24 10t-30 -13.5t-13 -32.5
+q0 -14 9 -23t23 -9q7 0 14.5 3.5t12.5 8.5q-1 -3 -1 -6.5t3 -3.5h17q4 0 6 6l10 64q0 1 -1 2.5t-3 1.5h1zM253 126l64 93v1q0 4 -3 4h-19q-3 0 -5 -3l-26 -39l-11 38q-2 4 -6 4h-18q-4 0 -4 -4l22 -62l-1 -1q-20 -28 -20 -31t3 -3h20q2 0 4 3zM412 233q0 14 -9.5 21t-24.5 7
+h-40q-5 0 -6 -5l-16 -102q0 -2 1 -3t2 -1h21q3 0 4 3l4 29q1 6 15 5h3q22 0 34 12t12 34zM497 224h-19q-4 0 -5 -8v0q-6 10 -24 10t-30.5 -13.5t-12.5 -32.5q0 -14 8.5 -23t23.5 -9q7 0 14.5 3.5t11.5 8.5v-6q0 -4 3 -4h17q4 0 6 6l10 64q0 1 -1 2.5t-2 1.5zM544 257
+q0 4 -3 4h-19q-3 0 -3 -3l-16 -105q0 -3 3 -3h17q1 0 3 1.5t2 4.5zM454 205q-9 0 -15.5 -6t-6.5 -14.5t4.5 -12.5t13 -4t14.5 6.5t6 14.5t-4.5 12t-11.5 4z" />
+    <glyph glyph-name="font-awesome" unicode="&#xf2b4;" horiz-adv-x="448" 
+d="M398 416h-348q-20 0 -35 -15t-15 -35v-348q0 -20 15 -35t35 -15h348q20 0 35 15t15 35v348q0 20 -15 35t-35 15zM352 132q0 -5 -7 -8q-32 -14 -54 -14q-13 0 -33 8q-22 9 -39 9q-29 0 -67 -17l-4 -2v-45q0 -4 -1 -5v-1q-1 -6 -6.5 -10t-13 -4t-13.5 6t-6 14v219
+q-13 10 -13 26q0 14 9.5 23.5t23.5 9.5t24 -9.5t10 -23.5q0 -17 -13 -26v-19q3 1 5 3q34 14 62 14q15 0 31 -4q11 -3 30 -10q5 -2 13 -2q15 0 42 11q9 5 12 5t6 -2.5t3 -5.5v-140h-1z" />
+    <glyph glyph-name="deskpro" unicode="&#xf38f;" horiz-adv-x="480" 
+d="M206 -64l31 38q23 1 37 7q24 12 33 38q5 15 5 26q0 3 -2 5l-27 32h79q0 -51 -10 -75q-9 -22 -32 -42q-29 -23 -63 -28q-11 -1 -51 -1zM406 104q27 0 46 9q15 7 28 22h-175l-18 -31h119zM363 328v-169h-74l-32 -55h-7q-33 0 -49 28q-8 15 -9 31q-1 6 -6 8t-10 -1t-4 -9
+q1 -14 7 -28q7 -17 19 -29h-91q-17 0 -40 10q-29 13 -47 35q-22 29 -20 69v213q0 11 6 14q3 3 9 3h83q13 1 26 -5q24 -10 24 -39q0 -6 5 -8.5t10 0t5 8.5q0 27 -16 44h84q72 0 104 -45q23 -31 23 -75zM230 272l64 -30q7 22 -5 37t-30 14t-29 -21z" />
+    <glyph glyph-name="goodreads-g" unicode="&#xf3a9;" horiz-adv-x="384" 
+d="M43 45h2h39q3 0 3 -3q10 -48 63 -63q39 -11 81 -2q50 11 68 60q11 28 11 67q1 42 0 52l-1 1l-2 -5q-17 -32 -44.5 -49.5t-61.5 -19.5q-78 -3 -124 42.5t-48 134.5q0 37 9 69q16 55 55.5 87t98.5 32q42 0 75 -23q28 -20 41 -47q1 -3 2 -2v61h45v-332q0 -63 -23 -103
+q-26 -46 -80 -59q-57 -14 -111 -1q-59 15 -85 58q-11 19 -13 45zM189 412q-28 0 -52 -14q-26 -15 -42 -44q-18 -32 -21 -76q-3 -49 13 -87q18 -43 58 -62q23 -11 52 -9q33 1 57 18q34 23 48 68q13 40 6 86q-7 56 -36 86q-31 34 -83 34z" />
+  </font>
+</defs></svg>

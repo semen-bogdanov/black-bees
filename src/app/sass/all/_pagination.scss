@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+  &__pagin {
+    @apply mt-[40px] mb-[80px];
+  }
+}
+
+.pagination {
+  @apply text-center;
+
+  li {
+    @apply inline-block;
+  }
+
+  a {
+    @apply text-center w-[50px] h-[50px]   leading-10 p-2.5 mr-[11px] cursor-pointer inline-block text-[#666666] bg-blackBanner;
+
+    &:hover {
+      @apply bg-white text-black;
+    }
+  }
+
+  :global {
+    .selected {
+      a {
+        @apply bg-black text-white;
+      }
+    }
+  }
+}
+
+.selected {
+  a {
+    @apply bg-white text-black;
+  }
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './_all.scss'; // все sass файлы
+
+html {
+  background-color: $black;
+}
+
+.container {
+  @apply w-full max-w-[1170px] overflow-hidden mx-auto my-0 p-0;
+}

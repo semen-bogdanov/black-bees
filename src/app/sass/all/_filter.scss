@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filter {
+  &__block {
+    @apply bg-blackBanner w-[370px] h-[580px] mt-[75px];
+  }
+
+  &__line {
+    @apply w-[50px] h-[3px] bg-black;
+  }
+
+  &__link {
+    @apply block w-[290px] ml-[40px];
+  }
+
+  &__about {
+    @apply flex mt-[40px] items-center justify-center pt-[30px];
+  }
+
+  &__text {
+    @apply ml-[15px] mr-[15px] text-[30px] text-white;
+  }
+
+  &__foto {
+    @apply mt-[47px] flex justify-center text-white;
+  }
+
+  &__name {
+    @apply text-[20px]  font-semibold;
+  }
+
+  &__name2 {
+    @apply italic text-[20px];
+  }
+
+  &__foto:nth-child(4) {
+    @apply mt-[20px];
+  }
+
+  &__name:nth-child(1) {
+    @apply text-[16px]  font-normal text-center;
+  }
+
+  &__socseti {
+    @apply flex justify-center mt-[20px];
+  }
+
+  &__soc {
+    @apply w-[50px] h-[50px] bg-black rounded-[30px] flex justify-center cursor-pointer;
+  }
+
+  &__soc:hover {
+    @apply bg-[#ababab];
+  }
+
+  &__img2 {
+    @apply mt-[3px];
+  }
+}

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.releted {
+  &__block {
+    @apply bg-blackBanner w-[370px] h-[664px] mt-[35px];
+  }
+
+  &__post {
+    @apply flex justify-center  w-[100%];
+  }
+
+  &__content {
+    @apply w-[290px] h-[80px] flex items-center mt-[30px]  cursor-pointer;
+  }
+
+  &__content:hover {
+    @apply opacity-50;
+  }
+
+  &__text2 {
+    @apply text-white pl-[20px] font-medium text-[12px] overflow-hidden max-w-[220px] max-h-[70px];
+  }
+
+  &__blockt {
+    @apply block;
+  }
+
+  &__time {
+    @apply text-white pl-[20px] opacity-60 pt-[5px] text-[12px];
+  }
+
+  &__number {
+    @apply w-[30px] h-[30px] bg-black absolute rounded-[30px] text-white flex justify-center pt-[4px] pr-[1px] mb-[60px] ml-[60px];
+    border: 1px solid white;
+  }
+
+  &__border {
+    @apply w-[100%] flex justify-center;
+  }
+
+  &__line {
+    @apply w-[290px] bg-white h-[1px] mt-[25px] opacity-15;
+  }
+
+  &__img {
+    @apply max-h-[100%] max-w-[100px] overflow-hidden;
+  }
+}

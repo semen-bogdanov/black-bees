@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+  &__banner1 {
+    // @apply hidden;
+    @apply h-[700px] w-[100%] flex justify-center items-center bg-[#1f1f1f];
+  }
+
+  &__container {
+    @apply w-[100%] h-[100%] overflow-x-hidden object-cover;
+    margin: 0 auto;
+  }
+
+  &__name {
+    @apply text-[48px] text-[white] text-center   mt-[290px];
+  }
+}
+
+.slick-dots {
+  position: absolute !important;
+  margin-bottom: -270px !important;
+
+  ul {
+    margin: -5px !important;
+  }
+}
+
+.slick-dots li {
+  width: 100px !important;
+  height: 20px !important;
+  // background-color: $black !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li:active {
+  // content: none !important;
+  width: 100px !important;
+  height: 20px !important;
+  background-color: white !important; /* Цвет прямоугольника */
+  border-radius: 0 !important; /* Убирает закругленные углы */
+}
+
+.slick-dots li button {
+  // content: none !important;
+  width: 100px !important;
+  height: 20px !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li button:before {
+  content: '' !important;
+  width: 100px !important;
+  height: 20px !important;
+  background-color: white !important;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1030px) {
+  .slick-dots {
+    position: absolute !important;
+    margin-bottom: 100px !important;
+
+    ul {
+      margin: -5px !important;
+    }
+  }
+
+  .slick-dots li {
+    // width: 100px !important;
+    // height: 20px !important;
+    // background-color: $black !important;
+    opacity: 10 !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .banner {
+    &__name {
+      @apply text-[24px];
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner {
+    &__name {
+      @apply text-[24px];
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    &__banner1 {
+      @apply h-[400px] w-[100%] flex justify-center items-center bg-[#1f1f1f];
+    }
+    &__container {
+      @apply w-[100%] h-[100%] overflow-x-hidden object-cover;
+      margin: 0 auto;
+    }
+    &__name {
+      @apply text-[24px] text-[white] text-center   mt-[100px];
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner {
+    &__banner1 {
+      @apply h-[400px] w-[100%] flex justify-center items-center bg-[#1f1f1f];
+    }
+    &__container {
+      @apply w-[100%] h-[100%] overflow-x-hidden object-cover;
+      margin: 0 auto;
+    }
+    &__name {
+      @apply text-[21px] text-[white] text-center   mt-[80px];
+    }
+  }
+  // .slick-dots li {
+  //   width: 100px !important;
+  //   height: 25px !important;
+  //   // background-color: $black !important;
+  //   opacity: 10 !important;
+  // }
+  // .slick-dots li button {
+  //   width: 100px !important;
+  //   height: 20px !important;
+  //   opacity: 1 !important;
+  // }
+}
+
+@media screen and (max-width: 400px) {
+  .slick-dots {
+    position: absolute !important;
+    margin-bottom: 0px !important;
+
+    ul {
+      margin: -5px !important;
+    }
+  }
+}

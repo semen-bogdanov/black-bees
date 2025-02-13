@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.news {
+	&__inner {
+		@apply h-[100%] w-[100%] bg-blackBanner flex;
+	}
+
+	&__header {
+		@apply text-[32px] uppercase;
+	}
+
+	&__block {
+		@apply flex p-[15px];
+	}
+
+	&__content {
+		@apply text-white pr-[15px];
+	}
+
+	&__img {
+		@apply w-[400px] h-[700px];
+	}
+
+	&__text {
+		@apply text-justify;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.news {
+		&__inner {
+			@apply block;
+		}
+		&__block {
+			@apply block;
+		}
+		&__img {
+			@apply mt-[15px];
+		}
+	}
+}

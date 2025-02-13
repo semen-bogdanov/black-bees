@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.category {
+  &__block {
+    @apply bg-blackBanner w-[370px] h-[490px] mt-[35px];
+  }
+
+  &__infocat {
+    @apply flex justify-center mt-[16px];
+  }
+
+  &__infocat:hover {
+    @apply opacity-50;
+  }
+
+  &__info {
+    @apply w-[290px] h-[60px] bg-black flex items-center pl-[15px] pr-[15px] justify-between cursor-pointer;
+  }
+
+  &__text {
+    @apply text-[14px] text-white cursor-pointer;
+  }
+
+  &__round {
+    @apply h-[30px] w-[30px] bg-blackBanner rounded-[30px] text-white text-center pt-[4px] pr-[1px];
+  }
+}

@@ -1,0 +1,17 @@
+@import './libs/_normalize.scss'; // обнуляющий стиль
+@import './libs/_variables.scss'; // переменные
+@import './all/_fonts.scss'; // шрифты
+@import './all/_header.scss';
+@import './all/_banner.scss'; // баннер
+@import './all/_contents.scss'; // посты на главной странице
+@import './all/_pagination.scss'; // пагинация
+@import './all/_maincont.scss'; // контент на главной странице
+@import './all/_filter.scss';
+@import './all/_category.scss';
+@import './all/_releted.scss';
+@import './all/_tag.scss';
+@import './all/_footer.scss';
+@import './all/_post.scss';
+@import './all/_filterM.scss';
+@import './all/_news.scss';
+@import './all/_live.scss';

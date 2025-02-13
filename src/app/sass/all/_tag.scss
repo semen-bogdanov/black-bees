@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tag {
+  //     @apply bg-blackBanner w-[370px] h-[340px] mt-[35px];
+  &__block {
+    @apply bg-blackBanner w-[370px]  mt-[35px];
+  }
+
+  &__flex1 {
+    @apply flex max-w-[370px] justify-center;
+  }
+
+  &__main {
+    @apply flex justify-center mt-[18px];
+  }
+
+  &__inner {
+    @apply w-[290px] h-[40px] flex   max-w-[290px];
+  }
+
+  &__blocks {
+    @apply h-[40px] bg-black  flex justify-center items-center text-white  cursor-pointer pl-[10px] pr-[10px];
+  }
+
+  &__blocks:last-child {
+    @apply mr-[0px];
+  }
+  &__blocks:hover {
+    // @apply bg-[#7a7979] !important;
+    background-color: #7a7979 !important;
+  }
+
+  &__link:hover {
+    @apply bg-[#7a7979];
+  }
+
+  &__position {
+    @apply pb-[33px];
+  }
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.live {
+	&__inner {
+		@apply h-[400px] w-[100%] bg-blackBanner flex;
+	}
+
+	&__text {
+		@apply text-white text-[20px] mt-[20px] text-justify pr-[15px];
+	}
+
+	&__block {
+		@apply flex m-[15px];
+	}
+
+	&__h1 {
+		@apply text-white text-[36px];
+	}
+
+	&__date {
+		@apply text-white text-[20px] mt-[20px];
+	}
+}
