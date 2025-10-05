@@ -1,5 +1,6 @@
 {
 	"name": "block-black-2",
+	"author": "Semen Bogdanov <webdevelopments@yandex.ru>",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
