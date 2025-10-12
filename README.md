@@ -2,7 +2,7 @@
 
  ### Frontend:
 - Next JS ( Бог и спаситель ⚛︎)
-- Typescript (Душевное спокойствие 🙏🏻)
+- Typescript (Душевное спокойствие 🙏🏻) 
 - Sass (Styles 💅🏻)
 - Redux Toolkit
 - React Query
