@@ -12,6 +12,7 @@
 - React-paginate
 - React-content-loader
 
+ 
 ```bash
 npm run dev
 # or
